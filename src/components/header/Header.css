@@ -1,0 +1,17 @@
+.AppBar {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AppNav {
+    display: flex;
+    justify-content: center;
+}
+
+.AppLink {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

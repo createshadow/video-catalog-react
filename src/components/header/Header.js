@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import AppBar from "@material-ui/core/AppBar/AppBar";
 
 const Header = () => {
     return (
-        <header>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/catalog">Catalog</Link>
+        <AppBar position='fixed' className='AppBar' style={{height: '60px', justifyContent: 'center'}}>
+            <nav className='AppNav'>
+                <Link to="/" className='AppLink'>Home</Link>
+                <Link to="/catalog" className='AppLink'>Catalog</Link>
             </nav>
-        </header>
+        </AppBar>
     )
 };
 
